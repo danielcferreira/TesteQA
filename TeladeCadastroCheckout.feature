@@ -1,4 +1,4 @@
-            #lenguage: pt
+           #lenguage: pt
 
             Funcionalidade: Tela de cadastro checkout
             Como cliente da EBAC-SHOP
@@ -7,20 +7,6 @@
 
             Contexto:
             Dado que eu finalize a compra
-
-            Cenário: Autenticação valida
-            Quando eu digitar nome "jose"
-            E sobrenome "Silva"
-            E nome da empresa "empresa ebac"
-            E escolher pais "Brasil"
-            E endereço "QE 1 CJ L, - c-25"
-            E cidade "Guará"
-            E estado "Brasilia"
-            E CEP "256314"
-            E telefone "61 98525632"
-            E endereço de email "josesilva@ebac.com.br"
-            E acessar finalizar compras
-            Então deve finalizar a compra
 
             Esquema do Cenário: Autenticar multiplos usuarios
             Dado que eu acesse os detalhes do faturamento com os sequintes usuario
@@ -35,4 +21,3 @@
             Quando eu inserir os dados obrigatorios
             E acessar finalizar compras
             Entao deve finalizar a compra
-
